@@ -57,7 +57,7 @@ Student created:  XYZ
 Roll no,: 123
 B) Deleting XYZ...
 <__main__.Student object at 0x000000E842CF36A0> deleted
-       Question 4
+       Question 5
 
 Employee: Mehak 
 Salary: 40000 
@@ -74,4 +74,9 @@ Salary: 70000
 
 B) Deleting Viren's details...
 Employee: <__main__.employee object at 0x000000E842CF3730> deleted
->>> 
+       Question 6
+
+Friend 1, please enter your word : arc
+Friend 2, please enter your word : car
+Is the new word meaningful?(Y/N) : y
+Your friendship is real
