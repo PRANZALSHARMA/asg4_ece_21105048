@@ -159,8 +159,8 @@ del std2
 
 
 
-#         Question 4
-print('       Question 4\n')
+#         Question 5
+print('       Question 5\n')
 
 class employee:
     def __init__(self,emp_num,emp_name,salary):
@@ -188,3 +188,38 @@ emp1.info()
 # B>>>
 print("B) Deleting Viren's details...")
 del emp3
+
+
+
+
+
+
+
+
+
+#         Question 6
+print('       Question 6\n')
+def friends(word1, word2):
+
+    word1 = word1.lower()
+    word2 = word2.lower()
+
+    # checking whether all the letters are same in both words
+    if sorted(word1) == sorted(word2):
+        print("Your friendship is real")
+    else:
+        print("Your friendship is fake")
+
+w1 = input("Friend 1, please enter your word : ")
+w2 = input("Friend 2, please enter your word : ")
+
+
+#verifying new word's meaningfulness from shopkeeper
+a=input("Is the new word meaningful?(Y/N) : ")
+
+if a.upper()=="N":
+    print("Your friendship is fake.")
+elif a.upper()=="Y":
+    friends(w1, w2)
+else:
+    ("Error!")
